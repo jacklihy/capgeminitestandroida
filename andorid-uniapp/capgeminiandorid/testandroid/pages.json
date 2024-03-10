@@ -1,0 +1,28 @@
+{
+	"pages": [ //the fist of page is the first in this array, please keep it，refernce：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				//"navigationBarTitleText": "Book System Managment"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/edit/edit",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "",
+				// "enablePullDownRefresh" : false
+				"navigationStyle": "custom"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Book System Managment",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
